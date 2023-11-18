@@ -1,13 +1,11 @@
 import React from "react";
 import './MyResume.css';
+import pdfFile from './pages/images/Resume.pdf'
 
 function MyResume() {
     return (
-        <div className="resume-homepage">
-            <div className="resume">
-                
-            </div>
-        </div>
+        <a href={pdfFile}>
+        </a>
     )
 }
 

@@ -7,6 +7,7 @@ import WorkExperience from './components/pages/WorkExperience';
 import Education from './components/pages/Education';
 import Hobbies from './components/pages/Hobbies';
 import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path='/Education' element={<Education/>} />
           <Route path='/Hobbies' element={<Hobbies/>} />
           <Route path='/Contact' element={<Contact/>} />
-          <Route path='/Resume' element={<Contact/>} />
+          <Route path='/Resume' element={<Resume/>} />
         </Routes>
       </Router>
     </>
