@@ -1,0 +1,117 @@
+.westminster-header {
+  font-size: 100px;
+  color: #000;
+  position: relative;
+}
+
+.work-experiences {
+  background-color: black;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project {
+  height: 200px;
+  width: 98%;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.logo{
+  width: 180px;
+  height: 180px;
+  border-radius: 20px 20px;
+  padding: 10px;
+}
+
+.job {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+  list-style: none;
+  width: 99vw;
+  justify-content: center;
+  padding: 20px;
+}
+
+.position-title {
+  display: flex;
+}
+
+.job-description {
+  position: relative;
+  width: 30vw;
+  list-style-type: none;
+}
+
+.title{
+  position: relative;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.sub-title{
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.job-details {
+  list-style-type: circle;
+  font-size: medium;
+  padding: 20px;
+  width: 80vw;
+}
+
+.tech-stack {
+  list-style-type: circle;
+  font-size: medium;
+  padding: 20px;
+  width: 10vw;
+}
+
+.tech {
+  list-style-type: circle;
+  font-size: small;
+  padding: 5px;
+}
+
+.details {
+  position: relative;
+  width: 80%;
+  padding: 5px;
+}
+
+.details-ping {
+  position: relative;
+  padding: 2px;
+}
+
+.job-details-ping {
+  list-style-type: circle;
+  font-size: small;
+  padding: 20px;
+  width: 80vw;
+}
+
+.ping-identity {
+  background-image: linear-gradient(to right, rgb(126, 0, 0, 0.8), rgb(126, 0, 0, 0.1), rgb(126, 0, 0, 0.8));
+  border-radius: 20px 20px;
+  min-height: 200px;
+  width: 97.5vw;
+  align-items: center;
+}
+
+.automox {
+  background-image: linear-gradient(to right, rgba(33, 155, 211, 0.8), rgba(33, 155, 211, 0.1), rgba(33, 155, 211, 0.8));
+  border-radius: 20px 20px;
+  min-height: 200px;
+  width: 97.5vw;
+  align-items: center;
+}
