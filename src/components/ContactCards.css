@@ -1,13 +1,14 @@
-.cards {
+.contact-cards {
     padding: 4rem;
     background-image: linear-gradient(black, #242424);
   }
   
   h1 {
     text-align: center;
+    color: #fff;
   }
   
-  .cards__container {
+  .contact-cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -16,23 +17,25 @@
     margin: 0 auto;
   }
   
-  .cards__wrapper {
+  .contact-cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    width: 100%;
   }
   
-  .cards__items {
+  .contact-cards__items {
     margin-bottom: 24px;
+    display: flex;
   }
   
-  .cards__item {
+  .contact-cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
   }
   
-  .cards__item__link {
+  .contact-cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -44,7 +47,7 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .contact-cards__item__pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -56,7 +59,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  .contact-cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -70,7 +73,7 @@
     box-sizing: border-box;
   }
   
-  .cards__item__img {
+  .contact-cards__item__img {
     position: absolute;
     top: 0;
     right: 0;
@@ -85,20 +88,20 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__img:hover {
+  .contact-cards__item__img:hover {
     transform: scale(1.1);
   }
   
-  .cards__item__info {
+  .contact-cards__item__info {
     padding: 20px 30px 30px;
     background-image: radial-gradient(white, grey);
-    height: 100%;
   }
   
-  .cards__item__text {
+  .contact-cards__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 24px;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1200px) {
