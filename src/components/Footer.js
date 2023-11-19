@@ -22,7 +22,7 @@ function Footer() {
             <h2>Social Media</h2>
             <a href='https://www.linkedin.com/in/kyle-monteleone-a63034154/'  target="_blank" rel="noreferrer">LinkedIn <i class="lni lni-linkedin-original"></i></a>
             <a href={pdfFile} target="_blank" rel="noreferrer">Resume <i class="lni lni-download"></i></a>
-            <a href='https://github.com/k-monteleone/my-website'  target="_blank" rel="noreferrer">Website <i class="lni lni-github"></i></a>
+            <a href='https://github.com/k-monteleone/k-monteleone'  target="_blank" rel="noreferrer">Website <i class="lni lni-github"></i></a>
           </div>
         </div>
       </div>

@@ -1,6 +1,10 @@
 import React from 'react';
 import './HobbieCards.css';
 import HobbieCardItem from './HobbieCardItem';
+import fish from './pages/images/IMG_0017.jpg';
+import climb from './pages/images/IMG_1904.jpg';
+import hike from './pages/images/IMG_4984.jpg';
+import games from './pages/images/IMG_3692.jpg';
 
 function HobbieCards() {
   return (
@@ -10,21 +14,21 @@ function HobbieCards() {
         <div className='hobbie-cards__wrapper'>
           <ul className='hobbie-cards__items'>
             <HobbieCardItem
-              src='./images/IMG_0017.jpg'
+              src={fish}
               label='Fishing'
             />
             <HobbieCardItem
-              src='images/IMG_1904.jpg'
+              src={climb}
               label='Climbing'
             />
           </ul>
           <ul className='hobbie-cards__items'>
             <HobbieCardItem
-              src='./images/IMG_4984.jpg'
+              src={hike}
               label='Hiking'
             />
             <HobbieCardItem
-              src='./images/IMG_3692.jpg'
+              src={games}
               label='Games'
             />
           </ul>

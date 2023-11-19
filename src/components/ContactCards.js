@@ -1,6 +1,8 @@
 import React from 'react';
 import './ContactCards.css';
 import ContactCardItem from './ContactCardItem';
+import email from './pages/images/email.jpg';
+import phone from './pages/images/cell.jpg';
 
 function ContactCards() {
   return (
@@ -10,12 +12,12 @@ function ContactCards() {
         <div className='contact-cards__wrapper'>
           <ul className='contact-cards__items'>
             <ContactCardItem
-              src='images/email.jpg'
+              src={email}
               text='kylemonteleone96@gmail.com'
               label='Email'
             />
             <ContactCardItem
-              src='images/cell.jpg'
+              src={phone}
               text='Cell: 724-599-6628'
               label='Phone'
             />
