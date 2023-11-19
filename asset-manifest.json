@@ -1,23 +1,30 @@
 {
   "files": {
     "main.css": "/k-monteleone/static/css/main.cf58807d.css",
-    "main.js": "/k-monteleone/static/js/main.494e150b.js",
+    "main.js": "/k-monteleone/static/js/main.d05fdc46.js",
     "static/media/IMG_5315.jpg": "/k-monteleone/static/media/IMG_5315.c1a4d6e562bf4193790d.jpg",
     "static/media/IMG_1950.jpg": "/k-monteleone/static/media/IMG_1950.d5ab6c48cc1d4851a29d.jpg",
+    "static/media/IMG_4984.jpg": "/k-monteleone/static/media/IMG_4984.2790ca1686736bae602a.jpg",
+    "static/media/IMG_0017.jpg": "/k-monteleone/static/media/IMG_0017.7dd353a6afb237e8e713.jpg",
     "static/media/IMG_1135.jpg": "/k-monteleone/static/media/IMG_1135.a9ebe144ffd0d4756fda.jpg",
+    "static/media/IMG_1904.jpg": "/k-monteleone/static/media/IMG_1904.385072e316361b4f11f0.jpg",
+    "static/media/email.jpg": "/k-monteleone/static/media/email.74f06c4cff71e8cf1d42.jpg",
     "static/media/westminsterCampus.png": "/k-monteleone/static/media/westminsterCampus.bf5e5c550dd7361b5a63.png",
     "static/media/pexels-fabricio-trujillo-60626.jpg": "/k-monteleone/static/media/pexels-fabricio-trujillo-60626.ba00964f2451f8659e71.jpg",
+    "static/media/cell.jpg": "/k-monteleone/static/media/cell.a5597b5dd88715413d0c.jpg",
+    "static/media/IMG_3692.jpg": "/k-monteleone/static/media/IMG_3692.6c640fb6fe7bb00a3859.jpg",
     "static/media/automox.jpg": "/k-monteleone/static/media/automox.5f609a17f3428f365a09.jpg",
     "static/media/Resume.pdf": "/k-monteleone/static/media/Resume.a250a391d386b227cb41.pdf",
     "static/media/vanguard.jpg": "/k-monteleone/static/media/vanguard.c8692d97258b5b63005f.jpg",
     "static/media/capstone.jpg": "/k-monteleone/static/media/capstone.e1c97b05fa3ffd666a11.jpg",
+    "static/media/Ping_Identity.jpg": "/k-monteleone/static/media/Ping_Identity.59be38657157f0b3811c.jpg",
     "static/media/westminster.png": "/k-monteleone/static/media/westminster.dd803f8aa1a586f7fb41.png",
     "index.html": "/k-monteleone/index.html",
     "main.cf58807d.css.map": "/k-monteleone/static/css/main.cf58807d.css.map",
-    "main.494e150b.js.map": "/k-monteleone/static/js/main.494e150b.js.map"
+    "main.d05fdc46.js.map": "/k-monteleone/static/js/main.d05fdc46.js.map"
   },
   "entrypoints": [
     "static/css/main.cf58807d.css",
-    "static/js/main.494e150b.js"
+    "static/js/main.d05fdc46.js"
   ]
 }
