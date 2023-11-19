@@ -8,12 +8,13 @@ import games from './pages/images/IMG_3692.jpg';
 
 function HobbieCards() {
   return (
+    <>
     <div className='hobbie-cards'>
       <h1>Just for Fun!</h1>
       <div className='hobbie-cards__container'>
         <div className='hobbie-cards__wrapper'>
           <ul className='hobbie-cards__items'>
-            <HobbieCardItem
+          <HobbieCardItem
               src={fish}
               label='Fishing'
             />
@@ -23,7 +24,7 @@ function HobbieCards() {
             />
           </ul>
           <ul className='hobbie-cards__items'>
-            <HobbieCardItem
+          <HobbieCardItem
               src={hike}
               label='Hiking'
             />
@@ -35,6 +36,7 @@ function HobbieCards() {
         </div>
       </div>
     </div>
+</>
   );
 }
 
