@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Me</h2>
-            <Link to='/WorkExperience'>Career <i class="lni lni-java"></i></Link>
+            <Link to='/WorkExperience'>Career <i class="lni lni-code"></i></Link>
             <Link to='/Hobbies'>Hobbies <i class="lni lni-headphone"></i></Link>
           </div>
           <div class='footer-link-items'>

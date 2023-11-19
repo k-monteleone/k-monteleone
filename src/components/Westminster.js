@@ -1,6 +1,6 @@
 import React from "react";
 import './Westminster.css';
-import westminsterLogo from './pages/images/westminsterCampus.png';
+import westminsterLogo from './pages/images/westminster.png';
 import capstoneLogo from './pages/images/capstone.jpg';
 
 function Westminster() {
