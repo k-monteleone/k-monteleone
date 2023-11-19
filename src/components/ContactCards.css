@@ -20,10 +20,23 @@
   .contact-cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .contact-cards__items {
+    display: flex;
     margin-bottom: 24px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .contact-cards__item {
@@ -31,7 +44,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    width: 40vw;
+    width: 80vw;
     padding: 20px;
   }
   
@@ -102,6 +115,14 @@
     color: #252e48;
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
+    word-wrap:break-word;
+  }
+
+  .contact-cards__item__text__small {
+    color: #252e48;
+    font-size: 14px;
+    line-height: 14px;
     text-align: center;
     word-wrap:break-word;
   }
