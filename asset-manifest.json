@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/k-monteleone/static/css/main.cf58807d.css",
+    "main.js": "/k-monteleone/static/js/main.494e150b.js",
+    "static/media/IMG_5315.jpg": "/k-monteleone/static/media/IMG_5315.c1a4d6e562bf4193790d.jpg",
+    "static/media/IMG_1950.jpg": "/k-monteleone/static/media/IMG_1950.d5ab6c48cc1d4851a29d.jpg",
+    "static/media/IMG_1135.jpg": "/k-monteleone/static/media/IMG_1135.a9ebe144ffd0d4756fda.jpg",
+    "static/media/westminsterCampus.png": "/k-monteleone/static/media/westminsterCampus.bf5e5c550dd7361b5a63.png",
+    "static/media/pexels-fabricio-trujillo-60626.jpg": "/k-monteleone/static/media/pexels-fabricio-trujillo-60626.ba00964f2451f8659e71.jpg",
+    "static/media/automox.jpg": "/k-monteleone/static/media/automox.5f609a17f3428f365a09.jpg",
+    "static/media/Resume.pdf": "/k-monteleone/static/media/Resume.a250a391d386b227cb41.pdf",
+    "static/media/vanguard.jpg": "/k-monteleone/static/media/vanguard.c8692d97258b5b63005f.jpg",
+    "static/media/capstone.jpg": "/k-monteleone/static/media/capstone.e1c97b05fa3ffd666a11.jpg",
+    "static/media/westminster.png": "/k-monteleone/static/media/westminster.dd803f8aa1a586f7fb41.png",
+    "index.html": "/k-monteleone/index.html",
+    "main.cf58807d.css.map": "/k-monteleone/static/css/main.cf58807d.css.map",
+    "main.494e150b.js.map": "/k-monteleone/static/js/main.494e150b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf58807d.css",
+    "static/js/main.494e150b.js"
+  ]
+}
