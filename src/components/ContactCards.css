@@ -20,12 +20,10 @@
   .contact-cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
-    width: 100%;
   }
   
   .contact-cards__items {
     margin-bottom: 24px;
-    display: flex;
   }
   
   .contact-cards__item {
@@ -33,6 +31,8 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    width: 40vw;
+    padding: 20px;
   }
   
   .contact-cards__item__link {
@@ -95,13 +95,15 @@
   .contact-cards__item__info {
     padding: 20px 30px 30px;
     background-image: radial-gradient(white, grey);
+    height: 100%;
   }
   
   .contact-cards__item__text {
     color: #252e48;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 24px;
     text-align: center;
+    word-wrap:break-word;
   }
   
   @media only screen and (min-width: 1200px) {

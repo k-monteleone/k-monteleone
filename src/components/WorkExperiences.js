@@ -1,4 +1,6 @@
 import React from 'react';
+import { useState } from "react";
+import { useEffect } from "react";
 import './WorkExperiences.css';
 import pingLogo from './pages/images/ping.png'
 import automoxLogo from './pages/images/automox.jpg'
@@ -6,12 +8,43 @@ import vanguardLogo from './pages/images/vanguard.jpg'
 import lockheedLogo from './pages/images/lockheed-martin.png'
 
 function WorkExperiences() {
+
+    const [isBig, setSize] = useState(false);
+    const [isSmall, setSmall] = useState(false);
+
+    const showBig = () => {
+        if (window.innerWidth <= 860) {
+            setSize(false);
+        } else {
+            setSize(true);
+        }
+    };
+
+    const showSmall = () => {
+        if (window.innerWidth <= 1060) {
+            setSmall(false);
+        } else {
+            setSmall(true);
+        }
+    };
+
+    useEffect(() => {
+        showBig()
+    }, []);
+
+    useEffect(() => {
+        showSmall()
+    }, []);
+
+    window.addEventListener('resize', showBig)
+    window.addEventListener('resize', showSmall)
+
     return (
-        <>
+        <div>
             <ul className='work-experiences'>
                 <li className='job'>
                     <div className='ping-identity'>
-                        <h2 className='position-title'>
+                        <h2 className={isBig ? 'position-title':'position-title-small'}>
                             <a className='logo' href='https://www.pingidentity.com/en.html' target="_blank" rel="noreferrer">
                                 <img className='logo' src={pingLogo} alt='example' />
                             </a>
@@ -20,7 +53,7 @@ function WorkExperiences() {
                                 <li className='sub-title'>Ping: 1 yr 4 mos</li>
                                 <li className='sub-title'>IAM / IAAS</li>
                             </ul>
-                            <ul className='job-details-ping'>
+                            <ul className={isSmall ? 'job-details-ping':'job-details-small'}>
                                 <li className='details-ping'>Collaborated in a small team to develop Java-based microservices and locally-hosted solutions, utilizing REST APIs and WebSocket connections</li>
                                 <li className='details-ping'>Proactively addressed compatibility issues with dev tools on M-Series Mac</li>
                                 <li className='details-ping'>Led the development and proof-of-concept of a standalone Windows service for a product</li>
@@ -49,7 +82,7 @@ function WorkExperiences() {
 
                 <li className='job'>
                     <div className='automox'>
-                        <h2 className='position-title'>
+                        <h2 className={isBig ? 'position-title':'position-title-small'}>
                             <a className='logo' href='https://www.automox.com/' target="_blank" rel="noreferrer">
                                 <img className='logo' src={automoxLogo} alt='example' />
                             </a>
@@ -58,7 +91,7 @@ function WorkExperiences() {
                                 <li className='sub-title'>Automox: 8 mos</li>
                                 <li className='sub-title'>SAAS / IT Automation</li>
                             </ul>
-                            <ul className='job-details'>
+                            <ul className={isSmall ? 'job-details':'job-details-small'}>
                                 <li className='details'>Designed and Developed an Elasticsearch service used in next-gen project development</li>
                                 <li className='details'>Handled and successfully resolved live, customer-facing, high-impact incidents</li>
                                 <li className='details'>Implemented new alerting and management systems within a legacy framework to increase product reliability and reduce MTD/MTM times</li>
@@ -83,7 +116,7 @@ function WorkExperiences() {
 
                 <li className='job'>
                     <div className='ping-identity'>
-                        <h2 className='position-title'>
+                        <h2 className={isBig ? 'position-title':'position-title-small'}>
                             <a className='logo' href='https://investor.vanguard.com/corporate-portal' target="_blank" rel="noreferrer">
                                 <img className='logo' src={vanguardLogo} alt='example' />
                             </a>
@@ -92,7 +125,7 @@ function WorkExperiences() {
                                 <li className='sub-title'>Vanguard: 1 y 3 mos</li>
                                 <li className='sub-title'>Finance</li>
                             </ul>
-                            <ul className='job-details'>
+                            <ul className={isSmall ? 'job-details':'job-details-small'}>
                                 <li className='details'>Helped kick off a new development team on a ‘Big 6’ program</li>
                                 <li className='details'>Worked with specialized agile teams to deliver custom products and solutions</li>
                                 <li className='details'>Developed functional software products from the ground up in an Agile environment</li>
@@ -117,7 +150,7 @@ function WorkExperiences() {
 
                 <li className='job'>
                     <div className='automox'>
-                        <h2 className='position-title'>
+                        <h2 className={isBig ? 'position-title':'position-title-small'}>
                             <a className='logo' href='https://www.lockheedmartin.com/' target="_blank" rel="noreferrer">
                                 <img className='logo' src={lockheedLogo} alt='example' />
                             </a>
@@ -126,7 +159,7 @@ function WorkExperiences() {
                                 <li className='sub-title'>Lockheed Martin: 2 y 4 mos</li>
                                 <li className='sub-title'>Defense</li>
                             </ul>
-                            <ul className='job-details'>
+                            <ul className={isSmall ? 'job-details':'job-details-small'}>
                                 <li className='details'>Worked on IRAD and Direct-to-Customer projects</li>
                                 <li className='details'>Participated in Agile Software Development with multiple teams</li>
                                 <li className='details'>Developed, tested, and reviewed a software across multiple languages</li>
@@ -149,7 +182,7 @@ function WorkExperiences() {
                     </div>
                 </li>
             </ul>
-        </>
+        </div>
     );
 }
 
