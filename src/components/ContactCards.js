@@ -16,7 +16,7 @@ function ContactCards() {
             />
             <ContactCardItem
               src='images/cell.jpg'
-              text='Cell: 734-599-6628'
+              text='Cell: 724-599-6628'
               label='Phone'
             />
           </ul>
