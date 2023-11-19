@@ -13,6 +13,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          link='/Contact'
         >
           Contact Me
         </Button>
@@ -20,9 +21,9 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('Clicked!')}
+          link='/WorkExperience'
         >
-          See Resume
+          Work Experience
         </Button>
       </div>
     </div>
