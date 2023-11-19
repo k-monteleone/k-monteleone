@@ -59,6 +59,12 @@
     display: flex;
   }
 
+  .position-title-small {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
   .job-description {
     position: relative;
     width: 30vw;
@@ -85,11 +91,25 @@
     width: 80vw;
   }
 
+  .job-details-small {
+    list-style-type: circle;
+    font-size: 12px;
+    padding: 20px;
+    width: 80vw;
+  }
+
   .tech-stack {
     list-style-type: circle;
     font-size: medium;
     padding: 20px;
     width: 10vw;
+  }
+
+  .tech-stack-small {
+    list-style-type: circle;
+    font-size: 12px;
+    padding: 20px;
+    width: 30vw;
   }
 
   .tech {
